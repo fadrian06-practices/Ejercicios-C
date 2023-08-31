@@ -1,0 +1,4 @@
+Convierta el hexadecimal BEBA a binario.
+
+B    E    B    A
+1011 1110 1011 1010

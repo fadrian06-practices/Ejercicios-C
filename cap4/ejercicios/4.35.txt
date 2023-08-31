@@ -1,0 +1,16 @@
+Describa el proceso que utilizaría para remplazar un do…while con un while equivalente. ¿Qué problema ocu-
+rre cuando intenta remplazar un ciclo while con un ciclo do…while? Suponga que le dicen que tiene que elimi-
+nar un ciclo while y remplazarlo con un do…while. ¿Qué instrucciones de control adicionales necesitaría utili-
+zar, y cómo las utilizaría para garantizar que el resultado del programa sería idéntico al original?
+
+Respuesta:
+	El bucle do...while se ejecuta al menos una vez.
+	Podría extraerse el código equivalente a una iteración y luego usando el while
+	para las siguientes iteraciones. Si la condición del while es falsa, el while se
+	ignoraría y pasaría al código posterior.
+	
+	Para reemplazar un "while" por un do...while se debe usar una instrucción if
+	con la misma condición del "while" dentro del "do" de manera que el código del
+	"do" sólo se ejecute si aún se cumple la condición del "while"
+	si esta condición no se cumple al llegar al "while" del "do...while" se ignora y
+	continúa con el código posterior.

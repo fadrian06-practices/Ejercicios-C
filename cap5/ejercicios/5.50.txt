@@ -1,0 +1,44 @@
+Encuentre el error en cada uno de los siguientes segmentos de programa y explique cómo corregirlos:
+a) double cubo( float ); /* Prototipo de función */
+...
+cubo (float numero ) /* definición de función */
+{
+	return numero = numero * numero;
+}
+
+	R. La definición de cubo no especifica el tipo de retorno double
+
+b) register auto int x = 7;
+
+	R. No es necesario usar auto ya que se asigna automáticamente.
+
+c) int numeroAleatorio = srand();
+
+	R. srand() no devuelve ningún valor.
+
+d) double y = 123.45678;
+int x;
+x = y;
+printf( “%f\n”, (double) x );
+
+	R. x toma sólo la parte entera de y, al momento de imprimirla y tratarla como flotante,
+	habrá perdido todos los decimales de y.
+
+e) double cuadrado( double numero )
+{
+	double numero;
+	return numero * numero;
+}
+
+	R. No se puede redeclarar numero ya que es un parámetro.
+
+f) int suma( int n )
+{
+	if ( n == 0 )
+		return 0;
+	else
+		return n + suma( n );
+}
+
+	R. Recursividad infinita, habría que modificar pasar un parámetro n diferente para que
+	en algún punto se haga 0.

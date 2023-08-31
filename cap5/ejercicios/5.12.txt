@@ -1,0 +1,30 @@
+Responda cada una de las siguientes preguntas.
+
+a) ¿Qué significa elegir números de manera “aleatoria”?
+
+	R. Seleccionar un número cualquiera sin ningún tipo de patrón, basado en elecciones
+	pasadas o predicciones futuras.
+
+b) ¿Por qué la función rand es tan útil para simular juegos de azar?
+
+	R. Porque genera un número que no beneficia a ningún jugador y no se puede predecir
+	con certeza cual será.
+
+c) ¿Por qué randomiza un programa por medio de srand? ¿Bajo qué circunstancias es recomendable no randomizar?
+
+	R. Se randomiza para los casos donde se quiere acceder a una secuencia de números
+	aleatorios que siempre sean los mismo, siempre y cuando se use la misma semilla.
+	Pero en circunstancias donde incluso teniendo un patrón analizado para deducir los
+	números aleatorios que se irán generando se podría generar números fuera de la
+	predicción, ya que no sigue un patrón y la propia semilla se selecciona aleatoriomente.
+
+d) ¿Por qué a menudo es necesario escalar y/o modificar los valores producidos por rand?
+
+	R. Quizá se desee realizar operaciones que incrementen el número que devuelva rand
+	para que el rango de valores posibles sea más amplio y por lo tanto, aún más
+	impredecible.
+
+e) ¿Por qué la simulación computarizada de situaciones reales es una técnica muy útil?
+
+	R. Porque reduce la posibilidad de que el programa no se ejecute correctamente
+	cuando opere con datos que procedan del mundo real.

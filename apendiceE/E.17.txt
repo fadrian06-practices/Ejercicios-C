@@ -1,0 +1,11 @@
+Convierta el decimal 177 a binario, a octal y a hexadecimal.
+
+128 64 32 16 8 4 2 1
+--------------------
+  1  0  1  1 0 0 0 1 (binario)
+
+10 110 001
+ 2   6   1 (octal)
+
+1011 0001
+   B    1 (hexadecimal)

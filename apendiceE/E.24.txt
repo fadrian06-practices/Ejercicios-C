@@ -1,0 +1,4 @@
+Convierta el hexadecimal 3A7D a binario.
+
+3    A    7    D
+0011 1010 0111 1101

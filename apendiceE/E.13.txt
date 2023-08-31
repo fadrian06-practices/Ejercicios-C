@@ -1,0 +1,8 @@
+Convierta el hexadecimal 4FEC a octal. [Pista: Primero convierta 4FEC a binario, y luego convierta el binario a
+octal.]
+
+4    F    E    C
+0100 1111 1110 1100 (binario)
+
+0 100 111 111 101 100
+0 4   7   7   5   4   (octal)

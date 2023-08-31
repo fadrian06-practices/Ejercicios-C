@@ -1,0 +1,4 @@
+Convierta el octal 7316 a binario.
+
+7   3   1   6
+111 011 001 110

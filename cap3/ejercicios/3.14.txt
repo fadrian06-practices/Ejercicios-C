@@ -1,0 +1,16 @@
+Escriba una instrucción individual en pseudocódigo que indique cada una de las siguientes acciones:
+	a) Despliegue el mensaje “Introduzca dos números”.
+		escribir "Introduzca dos números"
+
+	b) Asigne la suma de las variables x, y, y z a la variable p.
+		p = x + y + z
+
+	c) Verifique la siguiente condición dentro de una instrucción de selección if…else:
+	el valor actual de la variable m es mayor que el doble del valor actual
+	de la variable v.
+		if m > (v * v)
+
+	d) Obtenga el valor de las variables s, r, y t desde el teclado.
+		leer s
+		leer r
+		leer t

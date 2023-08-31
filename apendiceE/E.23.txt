@@ -1,0 +1,7 @@
+Convierta el binario 1001011111010 a octal y a hexadecimal.
+
+1 001 011 111 010
+1   1   3   7   2 (octal)
+
+1 0010 1111 1010
+1    2    F    A (hexadecimal)

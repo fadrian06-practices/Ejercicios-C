@@ -1,0 +1,30 @@
+Escriba una sola instrucción de C para hacer lo que indican los siguientes enunciados:
+a) Declare las variables c, estaVariable, q76354 y numero como de tipo int.
+   int c, estaVariable, q76354, numero;
+
+b) Indique al usuario que introduzca un entero. Finalice su mensaje de indicaciones con dos puntos (:), seguidos por un espacio, y deje el cursor posicionado después del espacio.
+   printf("Introduce un entero: ");
+
+c) Lea un entero introducido desde el teclado y almacene su valor en la variable entera a.
+   scanf("%d", &a);
+
+d) Si numero no es igual que 7, imprima “La variable numero no es igual que 7”.
+   if(numero != 7){
+      printf("La variable numero no es igual que 7.\n");
+   }
+
+e) En una línea, imprima el mensaje “Este es un programa en C”.
+   printf("Este es un programa en C.\n");
+
+f) En dos líneas, imprima el mensaje “Este es un programa en C”, de tal forma que la primera línea termi-
+ne en “programa”.
+   printf("Este es un programa\n");
+   printf("en C.\n");
+
+g) Imprima el mensaje “Este es un programa en C”, de tal forma que cada palabra aparezca en una línea di-
+ferente.
+   printf("Este\nes\nun\nprograma\nen\nC.\n");
+
+h) Imprima el mensaje “Este es un programa en C”, de tal forma que cada palabra aparezca separada por
+un salto del tabulador.
+   printf("Este\tes\tun\tprograma\ten\tC.\n");

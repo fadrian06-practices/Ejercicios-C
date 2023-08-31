@@ -1,0 +1,28 @@
+Muestre el valor de x después de que se realice cada una de las siguientes instrucciones.
+	a) x = fabs( 7.5 );
+	
+		x = 7.5;
+		
+	b) x = floor ( 7.5 );
+	
+		x = 7;
+	
+	c) x = fabs( 0.0 );
+	
+		x = 0;
+	
+	d) x = ceil( 0.0 );
+	
+		x = 0;
+	
+	e) x = fabs( -6.4 );
+	
+		x = -7;
+		
+	f) x = ceil( -6.4 );
+	
+		x = -6;
+	
+	g) x = ceil ( -fabs( -8 + floor( -5.5 ) ) );
+	
+		x = -14;

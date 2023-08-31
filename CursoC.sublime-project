@@ -1,0 +1,20 @@
+{
+	"folders":
+	[
+		{
+			"name": "Programación en C",
+			"path": ".",
+			"file_exclude_patterns": ["*.exe", "*.*workspace"],
+		}
+	],
+	"settings":
+	{
+		"LSP":
+		{
+			"LSP-eslint":
+			{
+				"enabled": false
+			}
+		}
+	},
+}

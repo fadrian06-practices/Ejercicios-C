@@ -1,0 +1,7 @@
+Convierta el binario 110101011000 a octal y a hexadecimal.
+
+110 101 011 000
+6   5   3   0   (octal)
+
+1101 0101 1000
+D    5    8     (hexadecimal)

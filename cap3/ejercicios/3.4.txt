@@ -1,0 +1,15 @@
+Escriba una instrucción en C para llevar a cabo cada una de las siguientes tareas:
+	a) Defina las variables suma y x de tipo int.
+		int suma, x;
+
+	b) Inicialice la variable x en 1.
+		int x = 1;
+
+	c) Inicialice la variable suma en 0.
+		int suma = 0;
+
+	d) Sume la variable x a la variable suma y asigne el resultado a la variable suma.
+		suma += x;
+
+	e) Imprima “La suma es: ” seguida del valor de la variable suma.
+		printf("La suma es: %d", suma);

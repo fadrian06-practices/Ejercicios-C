@@ -1,0 +1,9 @@
+¿Qué imprime el siguiente código?
+	printf( “*\n**\n***\n****\n*****\n” );
+
+Respuesta:
+*
+**
+***
+****
+*****

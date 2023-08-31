@@ -1,0 +1,19 @@
+Escriba una instrucción (o comentario) para realizar lo siguiente:
+a) Indique que el programa calculará el producto de tres enteros.
+   /* Calcula el producto de tres enteros */
+
+b) Declare las variables x, y, z y resultado de tipo int.
+   int x, y, z, resultado;
+
+c) Indique al usuario que introduzca tres enteros.
+   printf("Introduzca tres enteros: ");
+
+d) Lea tres enteros introducidos desde el teclado y almacénelos en las variables x, y y z.
+   scanf("%d%d%d", &x, &y, &z);
+
+e) Calcule el producto de los tres entero contenidos en las variables x, y, z, y asigne el resultado a la variable
+resultado.
+   resultado = x * y * z;
+
+f) Imprima “El producto es”, seguido del valor de la variable entera resultado.
+   printf("El producto es %d\n", resultado);

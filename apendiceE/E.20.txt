@@ -1,0 +1,9 @@
+Algunas personas argumentan que muchos de nuestros cálculos serían más fáciles en el sistema de numeración con
+base 12, debido a que 12 es divisible por muchos más números que 10 (por la base 10). ¿Cuál es el dígito de me-
+nor valor en la base 12? ¿Cuál podría ser el símbolo del valor más alto en la base 12? ¿Cuáles son los valores po-
+sicionales de las cuatro posiciones a la extrema derecha de cualquier número en el sistema de numeración con ba-
+se 12?
+
+Dígito de menor valor: 1
+Dígito de mayor valor: 11
+Valores posicionales: 1728 144 12 1

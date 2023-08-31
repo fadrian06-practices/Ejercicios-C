@@ -1,0 +1,20 @@
+¿Cuál es el resultado cuando se suma el complemento a dos de un número a sí mismo?
+
+417       (decimal)
+110100001 (binario)
+001011110 (c1)
+001011111 (c2)
+
+c2 + c2 = ?
+
+0 1 0 1 1 1 1 1 +
+0 1 0 1 1 1 1 1
+---------------
+1 1 1 1 1 1 1 0 (resultado en c2)
+0 0 0 0 0 0 0 1 + (restarle 1 "sumarle -1" => 1 binario = 0 c1 = 1 c2)
+---------------
+1 1 1 1 1 1 1 1 (resultado c1)
+---------------
+0 0 0 0 0 0 0 0 (resultado binario)
+---------------
+              0 (resultado decimal)

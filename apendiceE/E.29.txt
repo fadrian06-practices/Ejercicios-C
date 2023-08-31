@@ -1,0 +1,11 @@
+Convierta el decimal 299 a binario, a octal y a hexadecimal.
+
+256 128 64 32 16 8 4 2 1
+------------------------
+  1   0  0  1  0 1 0 1 1 (binario)
+
+100 101 011
+  4   5   3 (octal)
+
+1 0010 1011
+1    2    B (hexadecimal)

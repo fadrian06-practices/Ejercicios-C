@@ -1,0 +1,9 @@
+Muestre la representación binaria del decimal 779. Luego muestre el complemento a uno de 779 y el complemen-
+to a dos de 779.
+
+512 256 128 64 32 16 8 4 2 1
+----------------------------
+  1   1   0  0  0  0 1 0 1 1 (binario)
+
+0 0 1 1 1 1 0 1 0 0 (complemento a uno)
+0 0 1 1 1 1 0 1 0 1 (complemento a dos)

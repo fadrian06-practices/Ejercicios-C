@@ -1,0 +1,5 @@
+Muestre el complemento a dos del valor entero -1 en una máquina con enteros de 32 bits.
+
+00000000 00000000 00000000 00000001 (1 decimal)
+11111111 11111111 11111111 11111110 (complemento a uno)
+11111111 11111111 11111111 11111111 (-1)

@@ -1,0 +1,24 @@
+Escriba instrucciones for que impriman la siguiente secuencia de valores:
+	a) 1, 2, 3, 4, 5, 6, 7
+	
+		Respuesta:
+			for (contador = 1; contador <= 7; ++contador)
+				printf("%d, ", contador);
+	
+	b) 3, 8, 13, 18, 23
+	
+		Respuesta:
+			for (contador = 3; contador <= 23; contador += 5)
+				printf("%d, ", contador);
+	
+	c) 20, 14, 8, 2, -4, -10
+	
+		Respuesta:
+			for (contador = 20; contador >= -10; contador -= 6)
+				printf("%d, ", contador);
+	
+	d) 19, 27, 35, 43, 51
+	
+		Respuesta:
+			for (contador = 19; contador <= 51; contador += 8)
+				printf("%d, ", contador);

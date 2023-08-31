@@ -1,0 +1,12 @@
+Muestre la representación en binario del decimal 417. Luego muestre el complemento a uno de 417 y el comple-
+mento a dos de 417.
+
+256 128 64 32 16 8 4 2 1
+------------------------
+  1   1  0  1  0 0 0 0 1 (binario)
+  
+1 1 0 1 0 0 0 0 1
+-----------------
+0 0 1 0 1 1 1 1 0 (c1)
+-----------------
+0 0 1 0 1 1 1 1 1 (c2)
