@@ -2,6 +2,7 @@
   Uso de instrucciones if, operadores
   de relación y operadores de igualdad */
 #include <stdio.h>
+
 /* la función main inicia la ejecución del programa */
 int main() {
   int num1; /* primer número que lee el usuario */

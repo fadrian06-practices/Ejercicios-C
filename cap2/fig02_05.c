@@ -1,6 +1,7 @@
 /* Figura 2.5: fig02_05.c
   Programa de suma */
 #include <stdio.h>
+
 /* la función main inicia la ejecución del programa */
 int main() {
   int entero1; /* primer número a introducir por el usuario */

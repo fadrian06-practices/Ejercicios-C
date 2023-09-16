@@ -1,3 +1,9 @@
+/*
+  Utilice sólo las técnicas que aprendió en este capítulo para escribir un
+  programa que calcule los cuadrados y los cubos de los números 0 a 10, y que
+  utilice tabuladores para desplegar la siguiente tabla de valores:
+ */
+
 /* Imprime cuadrados y cubos de los números del 0 al 10 */
 #include <stdio.h>
 
@@ -16,6 +22,4 @@ int main() {
   printf("%d\t%d\t\t%d\n", 8, 8 * 8, 8 * 8 * 8);
   printf("%d\t%d\t\t%d\n", 9, 9 * 9, 9 * 9 * 9);
   printf("%d\t%d\t\t%d\n", 10, 10 * 10, 10 * 10 * 10);
-
-  return 0;
 }

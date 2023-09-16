@@ -1,3 +1,8 @@
+/*
+  Escriba un programa que lea dos enteros y que determine e imprima si el
+  primero es múltiplo del segundo. [Pista: Utilice el operador módulo.]
+ */
+
 /* Determina si el primero de 2 enteros es múltiplo del segundo */
 #include <stdio.h>
 

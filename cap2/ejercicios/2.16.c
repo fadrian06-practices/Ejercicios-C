@@ -1,3 +1,9 @@
+/*
+  Escriba un programa que pida al usuario escribir dos números, que obtenga los
+  dos números por parte del usuario, y que imprime la suma, el producto, la
+  diferencia, el cociente y el residuo de los dos números.
+ */
+
 /* Calcula la suma, resta, multiplicación, división
   y el residuo de dos enteros */
 #include <stdio.h>
