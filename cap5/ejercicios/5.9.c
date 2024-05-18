@@ -40,7 +40,7 @@ float calculaImporte(float horas) {
 }
 
 int main() {
-  short numeroCliente; /* Cantidad de clientes que se estacionaron */
+  // short numeroCliente; /* Cantidad de clientes que se estacionaron */
   float numeroHoras1;  /* Horas que pasó estacionado */
   float numeroHoras2;  /* Horas que pasó estacionado */
   float numeroHoras3;  /* Horas que pasó estacionado */
@@ -56,6 +56,7 @@ int main() {
   scanf("%f", &numeroHoras2);
   printf("(3) Introduce el numero de horas: ");
   scanf("%f", &numeroHoras3);
+
   importe1 = calculaImporte(numeroHoras1);
   importe2 = calculaImporte(numeroHoras2);
   importe3 = calculaImporte(numeroHoras3);

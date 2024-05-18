@@ -10,7 +10,7 @@ int main() {
   /* inicializa los elementos del arreglo n a 0 del arreglo */
   for (i = 0; i < 10; i++) {
     n[i] = 0; /* establece el elemento i a 0 */
-  }           /* fin de form */
+  } /* fin de form */
 
   printf("%s%13s\n", "Elemento", "Valor");
 

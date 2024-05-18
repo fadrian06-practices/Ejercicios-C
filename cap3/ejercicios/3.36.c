@@ -28,6 +28,7 @@ int main() {
 
   while (binario) {
     digito = binario % 10;
+
     if (digito == 1)
       decimal += posicion;
 

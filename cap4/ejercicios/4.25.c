@@ -23,6 +23,7 @@ int main() {
     // Imprimir el binario
     for (posicion = 1; posicion <= decimal; posicion *= 2)
       ;
+
     copiaDecimal = decimal;
     digito = copiaDecimal / posicion;
 
@@ -42,12 +43,16 @@ int main() {
     // Imprimir el octal
     for (posicion = 1; posicion <= decimal; posicion *= 8)
       ;
+
     copiaDecimal = decimal;
     digito = copiaDecimal / posicion;
+
     if (digito)
       printf("%d", digito);
+
     copiaDecimal %= posicion;
     posicion /= 8;
+
     for (; posicion; copiaDecimal %= posicion, posicion /= 8) {
       digito = copiaDecimal / posicion;
       printf("%d", digito);
@@ -58,8 +63,10 @@ int main() {
     // Imprimir el hexadecimal
     for (posicion = 1; posicion <= decimal; posicion *= 16)
       ;
+
     copiaDecimal = decimal;
     digito = copiaDecimal / posicion;
+
     switch (digito) {
     case 15:
       printf("F");
@@ -84,10 +91,13 @@ int main() {
     default:
       printf("%d", digito);
     }
+
     copiaDecimal %= posicion;
     posicion /= 16;
+
     for (; posicion; copiaDecimal %= posicion, posicion /= 16) {
       digito = copiaDecimal / posicion;
+
       switch (digito) {
       case 15:
         printf("F");
@@ -114,6 +124,6 @@ int main() {
 
     printf("\n");
   }
-  
+
   printf("\n");
 }

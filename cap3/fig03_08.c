@@ -29,7 +29,7 @@ int main() {
     printf("Introduce la calificacion, -1 para terminar: ");
     /* indicador para la entrada */
     scanf("%d", &calificacion); /* lee la siguiente calificación */
-  }                             /* fin del while */
+  } /* fin del while */
 
   /* fase de terminación */
   /* si el usuario introdujo al menos una calificación */
@@ -39,7 +39,7 @@ int main() {
 
     /* despliega el promedio con dos dígitos de presición */
     printf("El promedio del grupo es: %.2f\n", promedio);
-  }      /* fin del if */
+  } /* fin del if */
   else { /* si no se introdujo calificación alguna, despliega el mensaje */
     printf("No se introdujeron calificaciones\n");
   } /* fin del else */

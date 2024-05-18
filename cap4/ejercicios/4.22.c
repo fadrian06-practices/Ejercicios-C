@@ -23,7 +23,7 @@ int main() {
 
   /* repite hasta que el usuario digita
   la secuencia de teclas de fin de archivo */
-  while ((calificacion = getchar()) != 'z') {
+  while ((calificacion = getchar()) != 'Z') {
     /* determina cuál calificación se introdujo */
     switch (calificacion) { /* switch anidado dentro de while */
     case 'A':               /* la calificación es "A" */
@@ -60,8 +60,8 @@ int main() {
       printf("Introdujo la letra incorrecta.");
       printf("Introduzca una nueva calificacion.\n");
       break; /* opcional; de todas formas saldrá del switch */
-    }        /* fin del switch */
-  }          /* fin del while */
+    } /* fin del switch */
+  } /* fin del while */
 
   /* muestra el resumen de los resultados */
   printf("\nLos totales por calificacion son:\n");

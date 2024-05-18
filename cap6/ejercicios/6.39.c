@@ -11,5 +11,6 @@ int minimoRecursivo(int arreglo[], int longitud) {
 
   int anterior = minimoRecursivo(arreglo, longitud - 1);
   int actual = arreglo[longitud - 1];
+
   return anterior < actual ? anterior : actual;
 }

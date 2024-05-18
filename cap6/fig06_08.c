@@ -21,7 +21,7 @@ int main() {
     } /* fin del for interno */
 
     printf("\n"); /* fin de una barra en el histograma */
-  }               /* fin del for externo */
+  } /* fin del for externo */
 
   return 0; /* indica terminación exitosa */
 } /* fin de main */

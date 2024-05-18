@@ -18,6 +18,7 @@ int main() {
 
   /* despliega el resultado */
   printf("Fibonacci(%ld) = %ld\n", numero, resultado);
+
   return 0; /* indica terminación exitosa */
 } /* fin de main */
 
@@ -26,7 +27,7 @@ long fibonacci(long n) {
   /* caso base */
   if (n == 0 || n == 1) {
     return n;
-  }      /* fin de if */
+  } /* fin de if */
   else { /* paso recursivo */
     return fibonacci(n - 1) + fibonacci(n - 2);
   } /* fin de else */

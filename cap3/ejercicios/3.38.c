@@ -13,6 +13,7 @@ int main() {
 
   while (contador <= 100) {
     printf("*");
+
     if (contador % 10 == 0)
       printf("\n");
 

@@ -32,10 +32,14 @@ long factorial(long numero, int nivel) {
     printf("  "); // Imprimir espacios en blanco para el sangrado
 
   printf("Calculando Factorial(%ld)...\n", numero);
+
   long resultado = numero * factorial(numero - 1, nivel + 1);
+
   for (i = 0; i < nivel; ++i)
     printf("  "); // Imprimir espacios en blanco para el sangrado
+
   printf("Factorial(%ld) = %ld\n", numero, resultado);
+
   return resultado;
 }
 

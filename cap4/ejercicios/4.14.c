@@ -26,6 +26,7 @@ int main() {
   }
 
   n = 20;
+
   while (n >= 1)
     factorial *= n--;
 

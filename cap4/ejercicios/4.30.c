@@ -27,7 +27,7 @@ int main() {
 
   /* repite hasta que el usuario digita la secuencia de teclas de fin de archivo
    */
-  while ((calificacion = getchar()) != 'z') {
+  while ((calificacion = getchar()) != 'Z') {
     /* determina cuál calificación se introdujo */
 
     /*----------  SWITCH  ----------*/
@@ -89,26 +89,24 @@ int main() {
 
     /*----------  IF  ----------*/
     // if (calificacion == 'A' || calificacion == 'a')
-    //  ++cuentaA;
+    //   ++cuentaA;
     // if (calificacion == 'B' || calificacion == 'b')
-    //  ++cuentaB;
+    //   ++cuentaB;
     // if (calificacion == 'C' || calificacion == 'c')
-    //  ++cuentaC;
+    //   ++cuentaC;
     // if (calificacion == 'D' || calificacion == 'd')
-    //  ++cuentaD;
+    //   ++cuentaD;
     // if (calificacion == 'F' || calificacion == 'f')
-    //  ++cuentaF;
+    //   ++cuentaF;
     // if (calificacion == '\n' || calificacion == '\t' || calificacion == ' ')
-    //  continue;
-    // if (calificacion != 'A' && calificacion != 'a'
-    //  && calificacion != 'B' && calificacion != 'b'
-    //  && calificacion != 'C' && calificacion != 'c'
-    //  && calificacion != 'D' && calificacion != 'd'
-    //  && calificacion != 'F' && calificacion != 'f'
-    //  && calificacion != '\n' && calificacion != '\t' && calificacion != ' '
-    // ) {
-    //  printf("Introdujo la letra incorrecta.\n");
-    //  printf("Introduzca una nueva calificacion.\n");
+    //   continue;
+    // if (calificacion != 'A' && calificacion != 'a' && calificacion != 'B' &&
+    //     calificacion != 'b' && calificacion != 'C' && calificacion != 'c' &&
+    //     calificacion != 'D' && calificacion != 'd' && calificacion != 'F' &&
+    //     calificacion != 'f' && calificacion != '\n' && calificacion != '\t' &&
+    //     calificacion != ' ') {
+    //   printf("Introdujo la letra incorrecta.\n");
+    //   printf("Introduzca una nueva calificacion.\n");
     // }
   }
 

@@ -32,6 +32,7 @@ int main() {
 
   printf("Introduzca las ventas en pesos (-1 para terminar): ");
   scanf("%f", &ventasEnPesos);
+
   while (ventasEnPesos != -1) {
     salario = 200 + (ventasEnPesos * 0.09);
 

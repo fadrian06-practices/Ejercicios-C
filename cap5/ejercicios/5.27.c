@@ -43,6 +43,7 @@ int main() {
   long verificados = 0;
 
   printf("Numeros primos\n--------------\n");
+
   for (; contador <= 10000; ++contador) {
     if (!esPrimo(contador))
       continue;
@@ -50,6 +51,7 @@ int main() {
     ++verificados;
     printf("%ld\t", contador);
     ++fila;
+
     if (fila == numerosPorFila) {
       printf("\n");
       fila = 0;

@@ -22,7 +22,7 @@ int misterio(int a, int b) {
   /* caso base */
   if (b == 1) {
     return a;
-  }      /* fin de if */
+  } /* fin de if */
   else { /* paso recursivo */
     return a + misterio(a, b - 1);
   } /* fin de else */

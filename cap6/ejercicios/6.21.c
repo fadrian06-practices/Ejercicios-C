@@ -60,6 +60,7 @@ short reservarAsiento(enum Booleano asientos[], enum Clase clase) {
   for (; contador <= capacidad; ++contador)
     if (!asientos[contador]) {
       asientos[contador] = !asientos[contador];
+
       return contador;
     }
 
@@ -104,6 +105,7 @@ int main() {
   for (; contador <= CAPACIDAD; ++contador) {
     enum Clase clase = solicitarClase();
     short asientoReservado = reservarAsiento(asientos, clase);
+
     if (asientoReservado) {
       imprimirPaseDeAbordar(asientoReservado, clase);
       continue;
@@ -111,9 +113,11 @@ int main() {
 
     cambiarClase = solicitarCambiarClase(clase);
     printf("\n");
+
     if (cambiarClase == SI) {
       clase = clase == PRIMERA_CLASE ? ECONOMICO : PRIMERA_CLASE;
       asientoReservado = reservarAsiento(asientos, clase);
+
       if (asientoReservado) {
         imprimirPaseDeAbordar(asientoReservado, clase);
         continue;

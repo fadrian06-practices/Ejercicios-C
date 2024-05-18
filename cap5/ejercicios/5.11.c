@@ -30,13 +30,9 @@
 #include <math.h>
 #include <stdio.h>
 
-int redondeaAentero(double numero) {
-  return (int)floor(numero + .5);
-}
+int redondeaAentero(double numero) { return (int)floor(numero + .5); }
 
-double redondeaAdecimas(double numero) {
-  return floor(numero * 10 + .5) / 10;
-}
+double redondeaAdecimas(double numero) { return floor(numero * 10 + .5) / 10; }
 
 double redondeaAcentesimas(double numero) {
   return floor(numero * 100 + .5) / 100;
@@ -48,8 +44,10 @@ double redondeaAmilesimas(double numero) {
 
 double obtenerNumero() {
   double x;
+
   printf("Introduce un numero (-1 para terminar): ");
   scanf("%lf", &x);
+
   return x;
 }
 

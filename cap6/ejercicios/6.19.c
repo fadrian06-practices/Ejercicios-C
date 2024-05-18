@@ -67,6 +67,7 @@ void imprimirResultados(const int resultados[RESULTADOS]) {
   short combinacion = 2;
 
   printf("  Combinacion  Frecuencia  Esperado  Precision\n\n");
+
   for (; combinacion <= 12; ++combinacion) {
     printf("  %11d  %-10d  ", combinacion, resultados[combinacion - 2]);
     int esperado = obtenerEsperado(combinacion);

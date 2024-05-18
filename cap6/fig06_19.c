@@ -47,7 +47,6 @@ int busquedaBinaria(const int b[], int claveDeBusqueda, int bajo, int alto) {
   /* realiza el ciclo hasta que el subínice bajo es mayor que el subíndice alto
    */
   while (bajo <= alto) {
-
     /* determina el elemento central del subarreglo en el que se busca */
     central = (bajo + alto) / 2;
 
@@ -58,19 +57,16 @@ int busquedaBinaria(const int b[], int claveDeBusqueda, int bajo, int alto) {
     if (claveDeBusqueda == b[central]) {
       return central;
     } /* fin de if */
-
     /* si claveDeBusqueda es menor que el elemento central, establece el nuevo
        valor de alto */
     else if (claveDeBusqueda < b[central]) {
       alto = central - 1; /* busca en la mitad inferior del arreglo */
-    }                     /* fin de else if */
-
+    } /* fin de else if */
     /* si claveDeBusqueda es mayor que el elemento central, establece el nuevo
        valor para bajo */
     else {
       bajo = central + 1; /* busca en la mitad superior del arreglo */
-    }                     /* fin de else */
-
+    } /* fin de else */
   } /* fin de while */
 
   return -1; /* no se encontró claveDeBusqueda */
@@ -104,19 +100,17 @@ void despliegaLinea(const int b[], int baj, int cen, int alt) {
 
   /* ciclo a través del arreglo completo */
   for (i = 0; i < TAMANIO; i++) {
-
     /* despliega espacios si se encuentra fuera del rango actual del subarreglo
      */
     if (i < baj || i > alt) {
       printf(" ");
-    }                       /* fin de if */
+    } /* fin de if */
     else if (i == cen) {    /* despliega el elemento central */
       printf("%3d*", b[i]); /* marca el valor central */
-    }                       /* fin de else if */
-    else {                  /* despliega otros elementos en el subarreglo */
+    } /* fin de else if */
+    else { /* despliega otros elementos en el subarreglo */
       printf("%3d ", b[i]);
     } /* fin de else */
-
   } /* fin de for */
 
   printf("\n"); /* inicia la nueva línea de salida */

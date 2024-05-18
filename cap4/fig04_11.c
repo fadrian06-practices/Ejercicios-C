@@ -11,10 +11,10 @@ int main() {
     /* si x es 5 termina el ciclo */
     if (x == 5) {
       break; /* rompe el ciclo solo si x es 5 */
-    }        /* fin del if */
+    } /* fin del if */
 
     printf("%d ", x); /* despliega el valor de x */
-  }                   /* fin del for */
+  } /* fin del for */
 
   printf("\nRompe el ciclo en x == %d\n", x);
 

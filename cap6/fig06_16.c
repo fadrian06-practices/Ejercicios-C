@@ -56,7 +56,6 @@ void mediana(int resp[]) {
          "El arreglo de respuestas desordenado es");
 
   imprimirArreglo(resp); /* muestra el arreglo desordenado */
-
   ordenamBurbuja(resp); /* ordena el arreglo */
 
   printf("\n\nEl arreglo ordenado es ");
@@ -112,7 +111,7 @@ void moda(int frec[], const int resp[]) {
     } /* fin del for interno */
 
     printf("\n"); /* nueva linea de salida */
-  }               /* fin del for externo */
+  } /* fin del for externo */
 
   /* despliega el valor de la moda */
   printf("La moda es el valor mas frecuente.\n"
@@ -139,8 +138,8 @@ void ordenamBurbuja(int a[]) {
         a[j] = a[j + 1];
         a[j + 1] = almacena;
       } /* fin de if */
-    }   /* fin del for interno */
-  }     /* fin del for externo */
+    } /* fin del for interno */
+  } /* fin del for externo */
 } /* fin de ordenamBurbuja */
 
 /* muestra el contenido del arreglo (20 elementos por linea) */

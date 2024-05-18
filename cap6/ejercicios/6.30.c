@@ -26,6 +26,7 @@
 #include <stdio.h>
 #define NUMEROS 1000
 #define COLUMNAS 18
+
 enum Booleano { FALSO, VERDADERO };
 
 void descartarCompuestos(enum Booleano numeros[], int cantidad, int primo) {
@@ -38,6 +39,7 @@ void descartarCompuestos(enum Booleano numeros[], int cantidad, int primo) {
 int obtenerSiguientePrimo(enum Booleano numeros[], int cantidad, int primo) {
   while (primo < cantidad) {
     ++primo;
+
     if (numeros[primo])
       return primo;
   }

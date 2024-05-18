@@ -1,4 +1,4 @@
-/*¿Qué despliega el siguiente programa?
+/* ¿Qué despliega el siguiente programa?
 
 #include <stdio.h>
 int main() {

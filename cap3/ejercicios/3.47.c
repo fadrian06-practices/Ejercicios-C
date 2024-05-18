@@ -53,10 +53,12 @@ int main() {
   while (i <= 10) {
     while (num >= 1)
       fact *= num--;
+
     while (j <= y) {
       potencia *= x;
       ++j;
     }
+
     ++y;
     e += potencia / fact;
     fact = 1;

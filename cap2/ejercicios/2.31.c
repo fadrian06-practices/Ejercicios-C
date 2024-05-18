@@ -8,9 +8,7 @@
 #include <stdio.h>
 
 int main() {
-
   printf("Numero\tCuadrado\tCubo\n");
-
   printf("%d\t%d\t\t%d\n", 0, 0 * 0, 0 * 0 * 0);
   printf("%d\t%d\t\t%d\n", 1, 1 * 1, 1 * 1 * 1);
   printf("%d\t%d\t\t%d\n", 2, 2 * 2, 2 * 2 * 2);

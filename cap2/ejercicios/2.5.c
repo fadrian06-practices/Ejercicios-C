@@ -9,10 +9,10 @@
 int main() {
   int x, y, z, resultado; /* declara variables */
 
-  printf("Introduzca tres enteros: ");      /* indicador */
-  scanf("%d%d%d", &x, &y, &z);              /* lee tres enteros */
+  printf("Introduzca tres enteros: "); /* indicador */
+  scanf("%d%d%d", &x, &y, &z);         /* lee tres enteros */
 
-  resultado = x * y * z;                    /* multiplica los valores */
+  resultado = x * y * z; /* multiplica los valores */
 
   printf("El producto es %d\n", resultado); /* despliega el resultado */
 

@@ -60,14 +60,11 @@
 
 enum TorresDeHanoi { NINGUNA, PRIMERA, SEGUNDA, TERCERA };
 
-void moverDiscos(
-  short discos,
-  enum TorresDeHanoi origen,
-  enum TorresDeHanoi destino,
-  enum TorresDeHanoi temporal
-) {
+void moverDiscos(short discos, enum TorresDeHanoi origen,
+                 enum TorresDeHanoi destino, enum TorresDeHanoi temporal) {
   if (discos == 1) {
     printf("%d -> %d\n", origen, destino);
+
     return;
   }
 
@@ -76,6 +73,4 @@ void moverDiscos(
   moverDiscos(discos - 1, temporal, destino, origen);
 }
 
-int main() {
-  moverDiscos(3, PRIMERA, TERCERA, SEGUNDA);
-}
+int main() { moverDiscos(3, PRIMERA, TERCERA, SEGUNDA); }

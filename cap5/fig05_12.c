@@ -14,6 +14,7 @@ int main() {
   int x = 5; /* variable local en main */
 
   printf("la x local en el alcance de main es %d\n", x);
+
   {            /* comienza el nuevo alcance */
     int x = 7; /* variable local con nuevo alcance */
     printf("la x local en el alcance interno de main es %d\n", x);
@@ -29,12 +30,14 @@ int main() {
   usoGlobal();      /* x global también retiene su valor */
 
   printf("\nx local en main es %d\n", x);
+
   return 0; /* indica terminación exitosa */
 } /* fin de main */
 
 /* usoLocal reinicializa a la variable local x durante cada llamada */
 void usoLocal(void) {
   int x = 25; /* se inicializa cada vez que se llama a usoLocal */
+
   printf("\nla x en usoLocal es %d despues de entrar a usoLocal\n", x++);
   printf("la x local en usoLocal es %d antes de salir de usoLocal\n", x);
 } /* fin de la función usoLocal */

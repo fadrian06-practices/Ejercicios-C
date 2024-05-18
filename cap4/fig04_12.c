@@ -11,10 +11,10 @@ int main() {
     /* si x es 5 continúa con la siguiente iteración del ciclo */
     if (x == 5) {
       continue; /* ignora el resto del código en el cuerpo del ciclo */
-    }           /* fin del if */
+    } /* fin del if */
 
     printf("%d ", x); /* despliega el valor de x */
-  }                   /* fin del for */
+  } /* fin del for */
 
   printf("\nUtiliza continue para ignorar la impresion del valor 5\n");
   return 0; /* indica la terminación exitosa del programa */

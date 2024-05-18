@@ -8,6 +8,7 @@
 
 int main() {
   short contador, copiaContador, unidad, decena, centena;
+
   printf("PRIMEROS 100 NUMEROS ROMANOS\n\n");
   printf("Decimal\tRomano\n-------\t------\n");
 

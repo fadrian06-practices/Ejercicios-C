@@ -125,6 +125,7 @@ void obtenerVentas(double ventas[][PRODUCTOS], short dias) {
         printf("\n    Producto (%hd/%d)\n", producto + 1, PRODUCTOS);
         printf("    Monto total vendido (-1 para terminar): ");
         scanf("%lf", &monto);
+
         if (monto == -1)
           break;
 
@@ -143,6 +144,7 @@ void imprimirVentas(double ventas[VENDEDORES][PRODUCTOS]) {
   short producto;
 
   printf("  Vendedores | ");
+
   for (; vendedor < VENDEDORES; ++vendedor) {
     printf("  %-8d | ", vendedor + 1);
   }
@@ -150,8 +152,10 @@ void imprimirVentas(double ventas[VENDEDORES][PRODUCTOS]) {
   printf("Total\n");
   printf(" ------------|------------|------------|------------|------------|---"
          "--------\n");
+
   for (producto = 0; producto < PRODUCTOS; ++producto) {
     printf("  Producto %d | ", producto + 1);
+
     double totalPorProducto = 0;
 
     for (vendedor = 0; vendedor < VENDEDORES; ++vendedor) {

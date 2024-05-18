@@ -34,6 +34,7 @@ int obtenerNumero(int min, int max) {
   printf("Puedes adivinar cual es?\n");
   printf("Escribe tu primera respuesta\n");
   scanf("%d", &numero);
+
   return numero;
 }
 
@@ -52,7 +53,6 @@ int main() {
   srand(time(NULL));
   int min = 1;
   int max = 1000;
-  int primeraVez = 1;
   int correctas = 0;
   int intentos = 0;
   char repetir = 's';
@@ -60,6 +60,7 @@ int main() {
   while (repetir == 's') {
     int respuesta = aleatorio(min, max);
     int eleccion = obtenerNumero(min, max);
+
     ++intentos;
     printf("\n");
 

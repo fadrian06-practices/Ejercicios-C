@@ -39,8 +39,8 @@ int main() {
     case 6: /* tiro 6 */
       ++frecuencia6;
       break; /* opcional */
-    }        /* fin de switch */
-  }          /* fin de for */
+    } /* fin de switch */
+  } /* fin de for */
 
   /* despliega los resultado de forma tabular */
   printf("%s%13s\n", "Cara", "Frecuencia");

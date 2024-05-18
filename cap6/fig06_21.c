@@ -30,13 +30,11 @@ void despliegaArreglo(const int a[2][3]) {
 
   /* ciclo a través de las filas */
   for (i = 0; i <= 1; i++) {
-
     /* muestra los valores de las columnas */
     for (j = 0; j <= 2; j++) {
       printf("%d ", a[i][j]);
     } /* fin del for interno */
 
     printf("\n"); /* comienza la nueva línea de salida */
-  }               /* fin del for externo */
-
+  } /* fin del for externo */
 } /* fin de la función imprimeArreglo */

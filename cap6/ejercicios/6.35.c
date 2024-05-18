@@ -18,7 +18,6 @@ void despliegaLinea(const int b[], int baj, int cen, int alt) {
 
   /* ciclo a través del arreglo completo */
   for (; i < LONGITUD; ++i) {
-
     /* despliega espacios si se encuentra fuera del rango actual del subarreglo
      */
     if (i < baj || i > alt) {
@@ -96,6 +95,7 @@ int main() {
   if (resultado != -1) {
     printf("\n");
     printf("%d se encuentra en el elemento %d del arreglo", llave, resultado);
+
     return printf("\n");
   }
 

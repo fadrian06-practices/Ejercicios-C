@@ -9,7 +9,7 @@ int main() {
   while (contador <= 10) {    /* condición de repetición */
     printf("%d\n", contador); /* despliega el contador */
     ++contador;               /* incremento */
-  }                           /* fin del while */
+  } /* fin del while */
 
   return 0; /* indica terminación exitosa */
 } /* fin de la función main */

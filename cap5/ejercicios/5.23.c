@@ -32,6 +32,7 @@ int main() {
     scanf("%d", &minutos);
     printf("Introduzca los segundos: ");
     scanf("%d", &segundos);
+
     if (contador == 1)
       segTiempo1 = calcularSegundos(horas, minutos, segundos);
     else

@@ -33,6 +33,7 @@
 void imprimirDigitos(int entero) {
   if (entero < 1 || entero > 32767) {
     printf("El numero tiene que estar entre 1 y 32767");
+
     return;
   }
 

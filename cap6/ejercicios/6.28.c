@@ -15,9 +15,7 @@
 #include <time.h>
 #define ALEATORIOS 20
 
-short aleatorio(short min, short max) {
-  return (rand() % max) + min;
-}
+short aleatorio(short min, short max) { return (rand() % max) + min; }
 
 void agregarNumero(short numeros[], short cantidad, short numero) {
   short i = 0;
@@ -28,6 +26,7 @@ void agregarNumero(short numeros[], short cantidad, short numero) {
 
     if (!numeros[i]) {
       numeros[i] = numero;
+
       return;
     }
   }
@@ -36,10 +35,12 @@ void agregarNumero(short numeros[], short cantidad, short numero) {
 int main() {
   short numeros[ALEATORIOS] = {0};
   short i = 0;
+
   srand(time(NULL));
 
   for (; i < ALEATORIOS; ++i) {
     short numero = aleatorio(1, 20);
+
     agregarNumero(numeros, ALEATORIOS, numero);
   }
 

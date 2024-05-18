@@ -9,8 +9,9 @@ int main() {
 
   for (numero = 2; numero <= 100; numero += 2) {
     suma += numero; /* suma el número a suma */
-  }                 /* fin del for */
+  } /* fin del for */
 
   printf("La suma es %d\n", suma); /* muestra la suma */
+
   return 0;                        /* indica terminación exitosa */
 } /* fin de la función main */

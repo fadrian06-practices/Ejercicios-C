@@ -2,8 +2,8 @@
   Escriba un programa que simule un volado (el lanzamiento de una moneda).
 
   1. Por cada volado, el programa deberá imprimir Cara o Cruz.
-  2. Permita que el programa lance la moneda 100 veces y cuente el número de veces
-  que aparece cada lado de la moneda.
+  2. Permita que el programa lance la moneda 100 veces y cuente el número de
+  veces que aparece cada lado de la moneda.
   3. Imprima los resultados.
 
   El programa debe llamar a una función aparte llamada resultado, la cual no
@@ -20,9 +20,7 @@
 
 enum LadoDeMoneda { CARA, CRUZ };
 
-enum LadoDeMoneda resultado() {
-  return ((rand() % 10) + 1) <= 5;
-}
+enum LadoDeMoneda resultado() { return ((rand() % 10) + 1) <= 5; }
 
 int main() {
   short caras = 0, cruces = 0;
@@ -32,6 +30,7 @@ int main() {
 
   for (; contador <= 100; ++contador) {
     printf("%3d  ", contador);
+
     if (resultado() == CRUZ) {
       ++cruces;
       printf("Cruz");

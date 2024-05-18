@@ -31,6 +31,7 @@ int obtenerVentas(int centinela) {
   printf("Introduce el total de ventas semanales (%d para terminar): ",
          centinela);
   scanf("%d", &ventas);
+
   return ventas;
 }
 
@@ -66,6 +67,7 @@ enum Salarios obtenerIdDelSalario(int salario) {
 
 void agregarSalario(int salarios[SALARIOS], int salario) {
   int id = obtenerIdDelSalario(salario);
+
   ++salarios[id];
 }
 

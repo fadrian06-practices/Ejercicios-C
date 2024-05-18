@@ -47,16 +47,12 @@ int minimo(const int calificaciones[][EXAMENES], int alumnos, int examenes) {
 
   /* ciclo a través de las filas de calificaciones */
   for (i = 0; i < alumnos; i++) {
-
     /* ciclo a través de las columnas de calificaciones */
     for (j = 0; j < examenes; j++) {
-
       if (calificaciones[i][j] < califBaja) {
         califBaja = calificaciones[i][j];
       } /* fin de if */
-
     } /* fin del for interno */
-
   } /* fin del for externo */
 
   return califBaja; /* devuelve la calificación mínima */
@@ -70,16 +66,12 @@ int maximo(const int calificaciones[][EXAMENES], int alumnos, int examenes) {
 
   /* ciclo a través de las filas de calificaciones */
   for (i = 0; i < alumnos; i++) {
-
     /* ciclo a través de las columnas de calificaciones */
     for (j = 0; j < examenes; j++) {
-
       if (calificaciones[i][j] > califAlta) {
         califAlta = calificaciones[i][j];
       } /* fin de if */
-
     } /* fin del for interno */
-
   } /* fin del for externo */
 
   return califAlta; /* devuelve la calificación máxima */
@@ -89,6 +81,7 @@ int maximo(const int calificaciones[][EXAMENES], int alumnos, int examenes) {
 double promedio(const int conjuntoDeCalificaciones[], int examenes) {
   int i;         /* contador de exámenes */
   int total = 0; /* suma de las calificaciones del examen */
+
   /* total de calificaciones de un estudiante */
   for (i = 0; i < examenes; i++) {
     total += conjuntoDeCalificaciones[i];
@@ -104,11 +97,10 @@ void despliegaArreglo(const int calificaciones[][EXAMENES], int alumnos,
   int j; /* contador de examenes */
 
   /* muestra el encabezado de las columnas */
-  printf("%34s%5s%5s%5s", "[0]","[1]","[2]","[3]");
+  printf("%34s%5s%5s%5s", "[0]", "[1]", "[2]", "[3]");
 
   /* muestra las calificaciones en forma tabular */
   for (i = 0; i < alumnos; i++) {
-
     /* muestra la etiqueta de la fila */
     printf("\ncalificacionesEstudiantes[%d] ", i);
 
@@ -116,7 +108,5 @@ void despliegaArreglo(const int calificaciones[][EXAMENES], int alumnos,
     for (j = 0; j < examenes; j++) {
       printf("%5d", calificaciones[i][j]);
     } /* fin del for interno */
-
   } /* fin del for externo */
-
 } /* fin de la función despliegaArreglo */

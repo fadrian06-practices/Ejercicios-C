@@ -22,7 +22,7 @@ long factorial(long numero) {
   /* caso base */
   if (numero <= 1) {
     return 1;
-  }      /* fin de if */
+  } /* fin de if */
   else { /* paso recursivo */
     return (numero * factorial(numero - 1));
   } /* fin de else */

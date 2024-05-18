@@ -10,14 +10,14 @@
 
 enum Booleano { FALSO, VERDADERO };
 
-enum Booleano par(int entero) {
-  return entero % 2 == 0;
-}
+enum Booleano par(int entero) { return entero % 2 == 0; }
 
 int obtenerNumero() {
   int numero;
+
   printf("Introduzca un numero (-1 para terminar): ");
   scanf("%d", &numero);
+
   return numero;
 }
 

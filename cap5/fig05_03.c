@@ -11,9 +11,10 @@ int main() {
   /* repite 10 veces el ciclo y calcula e imprime el cuadrado de x */
   for (x = 1; x <= 10; ++x) {
     printf("%d ", cuadrado(x)); /* llamada a la función */
-  }                             /* fin del for */
+  } /* fin del for */
 
   printf("\n");
+
   return 0; /* indica terminación exitosa */
 } /* fin de main */
 

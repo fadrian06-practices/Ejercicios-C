@@ -4,9 +4,9 @@
 
 /* la función main comienza la ejecución del programa */
 int main() {
-  char cadena1[20]; /* reserva 20 caracteres */
+  char cadena1[20];                     /* reserva 20 caracteres */
   char cadena2[] = "literal de cadena"; /* reserva 18 caracteres */
-  int i; /* contador */
+  int i;                                /* contador */
 
   /* lee la cadena del usuario y la introduce en el arreglo cadena1 */
   printf("Introduce una cadena: ");
@@ -23,5 +23,6 @@ int main() {
   } /* fin de for */
 
   printf("\n");
+
   return 0; /* indica terminación exitosa */
 } /* fin de main */

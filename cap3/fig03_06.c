@@ -20,7 +20,7 @@ int main() {
     scanf("%d", &calificacion);   /* lee la calificación del usuario */
     total = total + calificacion; /* suma la calificación al total */
     contador = contador + 1;      /* incrementa el contador */
-  }                               /* fin del while */
+  } /* fin del while */
 
   /* fase de terminación */
   promedio = total / 10; /* división entera */

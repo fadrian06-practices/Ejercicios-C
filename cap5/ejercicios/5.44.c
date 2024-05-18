@@ -34,6 +34,7 @@ short obtenerCapacidad() {
   while (1) {
     printf("Nivel de capacidad: ");
     scanf("%hd", &capacidad);
+
     if (capacidad >= 1)
       return capacidad;
   }
@@ -48,6 +49,7 @@ enum Operacion obtenerOperacion() {
   printf("  3: Multiplicaciones\n");
   printf("  4: Divisiones\n");
   printf("  5: Todas las anteriores\n");
+
   while (1) {
     printf("    (1-5): ");
     scanf("%hd", &tipoDeProblemas);
@@ -60,6 +62,7 @@ enum Operacion obtenerOperacion() {
 enum Booleanos aprobo(short correctas, short incorrectas, short limite) {
   if (correctas + incorrectas >= limite) {
     short porcentajeRespuestasCorrectas = ((float)correctas * 100) / limite;
+
     if (porcentajeRespuestasCorrectas < 75)
       return FALSO;
   }
@@ -128,6 +131,7 @@ void imprimirMensajeRespuestaIncorrecta() {
 
 long obtenerRespuestaDelEstudiante() {
   long respuesta;
+
   scanf("%ld", &respuesta);
 
   return respuesta;
@@ -145,10 +149,12 @@ int calcularCapacidadMaxima(short capacidad) {
 
 int main() {
   srand(time(NULL));
+
   short correctas = 0;
   short incorrectas = 0;
   short capacidad = obtenerCapacidad();
   enum Operacion operacion = obtenerOperacion();
+
   printf("\n");
 
   while (1) {

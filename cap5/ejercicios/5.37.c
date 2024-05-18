@@ -15,5 +15,6 @@ int potencia(int base, int exponente) {
     return base;
 
   resultado = base * potencia(base, exponente - 1);
+
   return resultado;
 }

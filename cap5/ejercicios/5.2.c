@@ -37,9 +37,8 @@ int main() {
 
   for (x = 1; x <= 10; x++)
     printf("%d\n", cubo(x));
+
   return 0;
 }
 
-int cubo(int y) {
-  return y * y * y;
-}
+int cubo(int y) { return y * y * y; }

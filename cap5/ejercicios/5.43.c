@@ -10,8 +10,10 @@
 
 int main() {
   static int cuenta = 1;
+
   cuenta++;
   printf("%d\n", cuenta);
+
   main();
 }
 

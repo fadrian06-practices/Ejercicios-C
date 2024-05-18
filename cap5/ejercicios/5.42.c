@@ -10,5 +10,6 @@
 int mcd(int x, int y) {
   if (y == 0)
     return x;
+
   return mcd(y, x % y);
 }

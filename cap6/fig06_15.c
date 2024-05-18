@@ -27,10 +27,8 @@ int main() {
   /* ordenamiento burbuja */
   /* ciclo para controlar el número de pasos */
   for (pasadas = 1; pasadas < TAMANIO; pasadas++) {
-
     /* ciclo para controlar el número de comparaciones por pasada */
     for (i = 0; i < TAMANIO; i++) {
-
       /* compara los elementos adyacentes y los intercambia si el primer
        * elemento es mayor que el segundo */
       if (a[i] > a[i + 1]) {
@@ -38,9 +36,7 @@ int main() {
         a[i] = a[i + 1];
         a[i + 1] = almacena;
       } /* fin de if */
-
     } /* fin del for interno */
-
   } /* fin del for externo */
 
   printf("\n\nElementos de datos en orden ascendente\n");
@@ -48,5 +44,6 @@ int main() {
   imprimirArreglo(a, TAMANIO);
 
   printf("\n\n");
+
   return 0; /* indica terminación exitosa */
 } /* fin de main */

@@ -44,7 +44,7 @@ int main() {
       printf("\nSu saldo %.2f", saldoActual);
       printf(" excede el nuevo limite de credito %.2f\n", nuevoLimiteCredito);
     }
-    
+
     printf("\n");
   }
 }

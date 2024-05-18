@@ -16,6 +16,7 @@ int main() {
 
   if (entero % 2 == 0) {
     printf("%d es par\n", entero);
+
     return 0;
   }
 

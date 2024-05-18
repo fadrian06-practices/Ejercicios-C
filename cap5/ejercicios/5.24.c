@@ -15,14 +15,16 @@
 #include <stdio.h>
 
 double celcius(double fahrenheit) { return (fahrenheit - 32) * ((float)5 / 9); }
+
 double fahrenheit(double celcius) { return (celcius * ((float)9 / 5)) + 32; }
 
 int main() {
   int f = 32; // Farenheits
-  int c = 0; // Celcius
+  int c = 0;  // Celcius
 
   printf("Celcius -> Fahrenheit\t|  Fahrenheit -> Celcius\n");
   printf("-------    ----------\t|  ----------    -------\n");
+
   do {
     printf("%7d    %.2f\t|  %10d    %.2f\n", c, fahrenheit(c), f, celcius(f));
     ++c;

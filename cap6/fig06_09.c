@@ -18,7 +18,7 @@ int main() {
     cara = 1 + rand() % 6;
     ++frecuencia[cara]; /* reemplaza la instrucción switch de la linea 26 de la
                            figura 5.8 */
-  }                     /* fin de for */
+  } /* fin de for */
 
   printf("%s%17s\n", "Cara", "Frecuencia");
 

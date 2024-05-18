@@ -18,7 +18,10 @@ int main() {
   for (denominador = 3; denominador <= limite; denominador += 2) {
     pi -= (4.0 / denominador);
     denominador += 2;
-    if (denominador > limite) break;
+
+    if (denominador > limite)
+      break;
+
     pi += (4.0 / denominador);
   }
 

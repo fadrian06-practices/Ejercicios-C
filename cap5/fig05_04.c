@@ -17,6 +17,7 @@ int main() {
   /* numero1, numero2 y numero3 son argumentos
     para la llamada a la función máximo */
   printf("El maximo es: %d\n", maximo(numero1, numero2, numero3));
+
   return 0; /* indica terminación exitosa */
 } /* fin de la función main */
 

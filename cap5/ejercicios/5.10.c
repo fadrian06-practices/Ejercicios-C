@@ -14,18 +14,19 @@
 
 double obtenerNumero() {
   double x;
+
   printf("Introduce un numero (-1 para terminar): ");
   scanf("%lf", &x);
+
   return x;
 }
 
-double redondear(double x) {
-  return floor(x + .5);
-}
+double redondear(double x) { return floor(x + .5); }
 
 int main() {
   while (1) {
     double x = obtenerNumero();
+
     if (x == -1)
       break;
 

@@ -21,6 +21,7 @@ int aleatorio(int min, int max) { return (rand() % (max + min)) + min; }
 enum Booleano aprobo(short correctas, short incorrectas, short limite) {
   if (correctas + incorrectas == limite) {
     short porcentajeRespuestasCorrectas = ((float)correctas / limite) * 100;
+
     if (porcentajeRespuestasCorrectas < 75)
       return FALSO;
   }
@@ -67,7 +68,6 @@ int main() {
   srand(time(NULL));
 
   while (1) {
-
     int aleatorio1 = aleatorio(0, 99);
     int aleatorio2 = aleatorio(0, 99);
 

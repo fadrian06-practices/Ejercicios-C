@@ -11,7 +11,7 @@
 #include <stdio.h>
 
 int main() {
-  int primerDigito, segundoDigito, tercerDigito, cuartoDigito, quintoDigito;
+  int primerDigito, segundoDigito, cuartoDigito, quintoDigito;
   int palindromo;
 
   printf("Introduzca un numero de cinco digitos");
@@ -20,7 +20,6 @@ int main() {
 
   quintoDigito = palindromo % 10;
   cuartoDigito = (palindromo % 100) / 10;
-  tercerDigito = (palindromo % 1000) / 100;
   segundoDigito = (palindromo % 10000) / 1000;
   primerDigito = palindromo / 10000;
 

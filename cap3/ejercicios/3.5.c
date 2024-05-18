@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 int main() {
-	int x = 1, suma = 0;
+  int x = 1, suma = 0;
 
-	while (x <= 10)
-		suma += x++;
+  while (x <= 10)
+    suma += x++;
 
-	printf("La suma es: %d\n\n", suma);
+  printf("La suma es: %d\n\n", suma);
 }

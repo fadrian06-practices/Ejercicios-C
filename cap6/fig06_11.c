@@ -16,6 +16,7 @@ int main() {
   iniciaArregloAutomatico();
 
   printf("\n");
+
   return 0; /* indica terminación exitosa */
 } /* fin de main */
 

@@ -22,7 +22,9 @@ int main() {
       ++contador;
   }
 
-  if (!contador) contador = 1;
+  if (!contador)
+    contador = 1;
+
   promedio = (float)sumatoria / contador;
   printf("\nEl promedio es: %f\n\n", promedio);
 }

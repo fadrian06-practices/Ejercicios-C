@@ -14,6 +14,7 @@ int main() {
 
   if (num1 % num2 == 0) {
     printf("%d es multiplo de %d\n", num1, num2);
+
     return 0;
   }
 

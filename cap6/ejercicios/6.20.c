@@ -93,8 +93,10 @@ enum Estatus craps(int victorias[], int perdidas[]) {
 void imprimirResultados(int victorias[], int perdidas[]) {
   short tiro = 1;
   int victoriasTotales = 0;
+
   printf("  Tiro | Victorias | Perdidas\n");
   printf("-----------------------------\n");
+
   for (; tiro < TIROS; ++tiro) {
     printf("  %4d | %9d | %8d\n", tiro, victorias[tiro], perdidas[tiro]);
     victoriasTotales += victorias[tiro];

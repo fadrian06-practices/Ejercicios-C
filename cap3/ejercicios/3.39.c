@@ -16,6 +16,7 @@ int main() {
 
   while (numero) {
     digito = numero % 10;
+
     if (digito == 7)
       ++contadorSietes;
 

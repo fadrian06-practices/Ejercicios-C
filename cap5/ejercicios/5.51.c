@@ -44,8 +44,10 @@ void imprimirMensajeDeConversacion() {
 
 int obtenerApuesta() {
   int apuesta;
+
   printf("Introduzca la apuesta: ");
   scanf("%d", &apuesta);
+
   return apuesta;
 }
 
@@ -69,6 +71,7 @@ enum Estatus craps() {
 
   /* randomiza el generador de números aleatorios mediante la función time */
   srand(time(NULL));
+
   suma = tiraDados(); /* primer tiro de los dados */
 
   /* determina el estado del juego basado en la suma de los dados */
@@ -104,6 +107,7 @@ enum Estatus craps() {
 
   /* despliega mensaje de triunfo o derrota */
   printf("%s\n", estado == GANA ? "El jugador gana" : "El jugador pierde");
+
   return estado;
 }
 
@@ -122,6 +126,7 @@ int main() {
     printf("\n");
     imprimirMensajeDeConversacion();
     estatusJuego = craps();
+
     if (estatusJuego == PIERDE)
       saldoBanco -= apuesta;
     else

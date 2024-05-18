@@ -15,7 +15,7 @@
 int main() {
   double monto;            /* monto del depósito */
   double principal = 1000; /* monto principal */
-  double tasa = 5;       /* interés compuesto anual */
+  double tasa = 5;         /* interés compuesto anual */
   short anio = 1;          /* contador de años */
 
   /* muestra el encabezado de salida de la tabla */

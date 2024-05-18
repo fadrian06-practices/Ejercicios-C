@@ -30,7 +30,7 @@ int main() {
 
     if (x <= 10)
       printf("%d ", x); /* despliega el valor de x */
-  }                     /* fin del for */
+  } /* fin del for */
 
   printf("\nRompe el ciclo en x == %hd\n", ruptura);
 }

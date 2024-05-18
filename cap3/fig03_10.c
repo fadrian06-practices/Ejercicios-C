@@ -19,13 +19,13 @@ int main() {
     /* si el resultado es igual que 1, incrementa aprobados */
     if (resultado == 1) {
       aprobados = aprobados + 1;
-    }      /* fin del if */
+    } /* fin del if */
     else { /* de lo contrario incrementa reprobados */
       reprobados = reprobados + 1;
     } /* fin del else */
 
     estudiante = estudiante + 1; /* incrementa el contador de estudiante */
-  }                              /* fin de while */
+  } /* fin de while */
 
   /* fase de terminación */
   /* despliega el número de aprobados y reprobados */

@@ -37,9 +37,12 @@ int main() {
   int contador = 1;
 
   printf("Numero\tFactores\n");
+
   for (; contador <= 1000; ++contador) {
     printf("%6d\t", contador);
+
     enum Booleano esPerfecto = perfecto(contador);
+
     if (esPerfecto) {
       imprimirFactores(contador);
       printf("\tEs perfecto");
