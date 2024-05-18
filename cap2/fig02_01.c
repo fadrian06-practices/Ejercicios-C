@@ -2,9 +2,9 @@
   Un primer programa en C */
 #include <stdio.h>
 
-/* la función main inicia la ejecución del programa */
+/* la funciÃ³n main inicia la ejecuciÃ³n del programa */
 int main(void) {
   printf("Bienvenido a C!\n");
 
-  return 0; /* indica que el programa terminó con éxito */
-} /* fin de la función main */
+  return 0; /* indica que el programa terminÃ³ con Ã©xito */
+} /* fin de la funciÃ³n main */

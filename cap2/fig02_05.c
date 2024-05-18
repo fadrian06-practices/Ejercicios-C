@@ -2,11 +2,11 @@
   Programa de suma */
 #include <stdio.h>
 
-/* la función main inicia la ejecución del programa */
+/* la funciÃ³n main inicia la ejecuciÃ³n del programa */
 int main() {
-  int entero1; /* primer número a introducir por el usuario */
-  int entero2; /* segundo número introducir por el usuario */
-  int suma;    /* variable en la que se almacenará la suma */
+  int entero1; /* primer nÃºmero a introducir por el usuario */
+  int entero2; /* segundo nÃºmero introducir por el usuario */
+  int suma;    /* variable en la que se almacenarÃ¡ la suma */
 
   printf("Introduzca el primer entero\n"); /* indicador */
   scanf("%d", &entero1);                   /* lee un entero */
@@ -17,5 +17,5 @@ int main() {
   suma = entero1 + entero2;        /* asigna el resultado a suma */
   printf("La suma es %d\n", suma); /* imprime la suma */
 
-  return 0; /* indica que el programa terminó con éxito */
-} /* fin de la función main */
+  return 0; /* indica que el programa terminÃ³ con Ã©xito */
+} /* fin de la funciÃ³n main */

@@ -1,11 +1,11 @@
 /* Figura 2.3: fig02_03.c
-  Impresión de una línea mediante dos instrucciones printf */
+  ImpresiÃ³n de una lÃ­nea mediante dos instrucciones printf */
 #include <stdio.h>
 
-/* la función main inicia la ejecución del programa */
+/* la funciÃ³n main inicia la ejecuciÃ³n del programa */
 int main() {
   printf("Bienvenido ");
   printf("a C!\n");
 
-  return 0; /* indica que el programa terminó de con éxito */
-} /* fin de la función main */
+  return 0; /* indica que el programa terminÃ³ de con Ã©xito */
+} /* fin de la funciÃ³n main */

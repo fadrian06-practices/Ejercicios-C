@@ -1,10 +1,10 @@
 /* Figura 2.4: fig02_04.c
-  Impresión de múltiples líneas mediante una sola instrucción printf */
+  ImpresiÃ³n de mÃºltiples lÃ­neas mediante una sola instrucciÃ³n printf */
 #include <stdio.h>
 
-/* la función main inicia la ejecución del programa */
+/* la funciÃ³n main inicia la ejecuciÃ³n del programa */
 int main() {
   printf("Bienvenido\na\nC!\n");
   
-  return 0; /* indica que el programa terminó con éxito*/
-} /* fin de la función main */
+  return 0; /* indica que el programa terminÃ³ con Ã©xito*/
+} /* fin de la funciÃ³n main */

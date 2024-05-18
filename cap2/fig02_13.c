@@ -1,12 +1,12 @@
 /* Figura 2.13: fig02_13.c
   Uso de instrucciones if, operadores
-  de relación y operadores de igualdad */
+  de relaciÃ³n y operadores de igualdad */
 #include <stdio.h>
 
-/* la función main inicia la ejecución del programa */
+/* la funciÃ³n main inicia la ejecuciÃ³n del programa */
 int main() {
-  int num1; /* primer número que lee el usuario */
-  int num2; /* segundo número que lee el usuario */
+  int num1; /* primer nÃºmero que lee el usuario */
+  int num2; /* segundo nÃºmero que lee el usuario */
 
   printf("Introduzca dos enteros y le dire\n");
   printf("las relaciones que satisfacen: ");
@@ -36,5 +36,5 @@ int main() {
     printf("%d es mayor o igual que %d\n", num1, num2);
   } /* fin de if */
 
-  return 0; /* indica que el programa terminó con éxito */
-} /* fin de la función main */
+  return 0; /* indica que el programa terminÃ³ con Ã©xito */
+} /* fin de la funciÃ³n main */

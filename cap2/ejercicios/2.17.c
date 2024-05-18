@@ -1,13 +1,13 @@
 /*
-  Escriba un programa que imprima los n鷐eros del 1 al 4 en la misma l韓ea.
-  Escriba el programa utilizando los siguientes m閠odos:
+  Escriba un programa que imprima los n煤meros del 1 al 4 en la misma l铆nea.
+  Escriba el programa utilizando los siguientes m茅todos:
 
-  a) Mediante una instrucci髇 printf sin especificadores de conversi髇.
-  b) Mediante una instrucci髇 printf con cuatro especificadores de conversi髇.
+  a) Mediante una instrucci贸n printf sin especificadores de conversi贸n.
+  b) Mediante una instrucci贸n printf con cuatro especificadores de conversi贸n.
   c) Mediante cuatro instrucciones printf.
  */
 
-/* Imprime los n鷐eros del 1 al 4 */
+/* Imprime los n煤meros del 1 al 4 */
 #include <stdio.h>
 
 int main() {

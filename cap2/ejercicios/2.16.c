@@ -1,10 +1,10 @@
 /*
-  Escriba un programa que pida al usuario escribir dos números, que obtenga los
-  dos números por parte del usuario, y que imprime la suma, el producto, la
-  diferencia, el cociente y el residuo de los dos números.
+  Escriba un programa que pida al usuario escribir dos nÃºmeros, que obtenga los
+  dos nÃºmeros por parte del usuario, y que imprime la suma, el producto, la
+  diferencia, el cociente y el residuo de los dos nÃºmeros.
  */
 
-/* Calcula la suma, resta, multiplicación, división
+/* Calcula la suma, resta, multiplicaciÃ³n, divisiÃ³n
   y el residuo de dos enteros */
 #include <stdio.h>
 
