@@ -15,8 +15,8 @@ int main() {
   scanf("%d%d", &num1, &num2);
 
   printf("La suma es %d\n", num1 + num2);
-  printf("La resta es %d\n", num1 - num2);
-  printf("La multiplicacion es %d\n", num1 * num2);
-  printf("La division es %d\n", num1 / num2);
-  printf("El resto de la division es %d\n\n", num1 % num2);
+  printf("El producto es %d\n", num1 * num2);
+  printf("La diferencia es %d\n", num1 - num2);
+  printf("El cociente es %d\n", num1 / num2);
+  printf("El residuo es %d\n\n", num1 % num2);
 }
