@@ -8,17 +8,16 @@
   tener puntos decimales.]
  */
 
-/* Calcula diámetro de un círculo */
+/* Calcula diámetro, la circunferencia y el área de un círculo */
 #include <stdio.h>
 
 int main() {
-  int radio, diametro;
+  int radio;
 
   printf("Introduce el radio del circulo: ");
   scanf("%d", &radio);
 
-  diametro = radio * 2;
   printf("El diametro es %d\n", radio * 2);
-  printf("La circunferencia es aproximada a %f\n", diametro * 3.14159);
+  printf("La circunferencia es aproximada a %f\n", radio * 2 * 3.14159);
   printf("El area es %f\n", 3.14159 * radio * radio);
 }
