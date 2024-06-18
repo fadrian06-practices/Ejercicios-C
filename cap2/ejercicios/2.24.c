@@ -16,9 +16,9 @@ int main() {
 
   if (entero % 2 == 0) {
     printf("%d es par\n", entero);
-
-    return 0;
   }
 
-  printf("%d es impar\n", entero);
+  if (entero % 2 != 0) {
+    printf("%d es impar\n", entero);
+  }
 }

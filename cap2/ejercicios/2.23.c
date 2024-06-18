@@ -14,8 +14,7 @@ int main() {
   printf("Introduce 5 numeros enteros: ");
   scanf("%d%d%d%d%d", &num1, &num2, &num3, &num4, &num5);
 
-  mayor = num1;
-  menor = num1;
+  mayor = menor = num1;
 
   if (mayor < num2) {
     mayor = num2;
@@ -33,6 +32,8 @@ int main() {
     mayor = num5;
   }
 
+  printf("El numero mayor es %d\n", mayor);
+
   if (menor > num2) {
     menor = num2;
   }
@@ -49,6 +50,5 @@ int main() {
     menor = num5;
   }
 
-  printf("El numero mayor es %d\n", mayor);
   printf("El numero menor es %d\n", menor);
 }
