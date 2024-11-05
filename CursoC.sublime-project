@@ -11,5 +11,11 @@
         "source.json.sublime": "LSP-biome"
       }
     }
-  }
+  },
+  "build_systems": [
+    {
+      "name": "Eliminar ejecutables",
+      "shell_cmd": "$project_path/limpiar.bat"
+    }
+  ]
 }
