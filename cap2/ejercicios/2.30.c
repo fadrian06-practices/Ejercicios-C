@@ -14,7 +14,7 @@
 int main() {
   int numero, digito;
 
-  printf("Introduce un numero: ");
+  printf("Introduce un numero de cinco digitos: ");
   scanf("%d", &numero);
 
   digito = numero / 10000;
