@@ -20,7 +20,7 @@ int main() {
   int binario;      /* Un número entero en notación binaria */
   int decimal = 0;  /* Resultado de la conversión de binario a entero */
   int posicion = 1; /* Posiciones del Sistema de Numeración Decimal */
-  int digito; /* Dígito resultado del módulo entre binario y posición */
+  int digito;       /* Dígito resultado del módulo entre binario y posición */
 
   printf("Introduzca un numero entero que contenga solo unos y ceros");
   printf(" (es decir, un entero \"binario\")\n\n> ");

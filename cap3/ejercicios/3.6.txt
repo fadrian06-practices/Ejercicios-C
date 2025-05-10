@@ -1,6 +1,6 @@
 Determine los valores de las variables producto y x después realizar el cálculo siguiente.
 Suponga que producto y x tienen un valor igual que 5 al comenzar la ejecución de la
 instrucción.
-	producto *= x++;
+  producto *= x++;
 
-	/* x = 6, producto = 25 */
+  /* x = 6, producto = 25 */

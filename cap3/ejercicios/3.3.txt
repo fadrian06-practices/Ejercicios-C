@@ -1,32 +1,32 @@
 Escriba una instrucción sencilla en C para llevar a cabo cada una de las siguientes tareas:
-	a) Asigne la suma de x y y a z, e incremente el valor de x en 1 después del cálculo.
-		z = x++ + y;
+  a) Asigne la suma de x y y a z, e incremente el valor de x en 1 después del cálculo.
+    z = x++ + y;
 
-	b) Multiplique la variable producto por 2 mediante el uso del operador *=.
-		producto *= 2;
+  b) Multiplique la variable producto por 2 mediante el uso del operador *=.
+    producto *= 2;
 
-	c) Multiplique la variable producto por 2 mediante el uso de los operadores = y *.
-		producto = producto * 2;
+  c) Multiplique la variable producto por 2 mediante el uso de los operadores = y *.
+    producto = producto * 2;
 
-	d) Verifique si el valor de la variable cuenta es mayor que 10. Si lo es, imprima “Cuenta es mayor que 10”.
-		if (cuenta > 10)
-			printf("Cuenta es mayor que 10");
+  d) Verifique si el valor de la variable cuenta es mayor que 10. Si lo es, imprima “Cuenta es mayor que 10”.
+    if (cuenta > 10)
+      printf("Cuenta es mayor que 10");
 
-	e) Decremente la variable x en 1, después réstela de la variable total.
-		total -= --x;
+  e) Decremente la variable x en 1, después réstela de la variable total.
+    total -= --x;
 
-	f) Sume la variable x a la variable total, después decremente x en 1.
-		total += x;
-		++x;
+  f) Sume la variable x a la variable total, después decremente x en 1.
+    total += x;
+    ++x;
 
-	g) Calcule el residuo de la división de q entre divisor y asigne el resultado a q. Escriba la instrucción de dos
-	maneras distintas.
-		q %= divisor;
-		q = q % divisor;
+  g) Calcule el residuo de la división de q entre divisor y asigne el resultado a q. Escriba la instrucción de dos
+  maneras distintas.
+    q %= divisor;
+    q = q % divisor;
 
-	h) Imprima el valor 123.4567 con dos dígitos de precisión. ¿Qué valor se imprime?
-		printf("%.2f", 123.4567) /* imprime 123.46 */
+  h) Imprima el valor 123.4567 con dos dígitos de precisión. ¿Qué valor se imprime?
+    printf("%.2f", 123.4567) /* imprime 123.46 */
 
-	i) Imprima el valor de punto flotante 3.14159 con tres dígitos de precisión a la derecha del punto decimal. ¿Qué
-	valor se imprime?
-		printf("%.3f", 3.14159) /* imprime 3.142 */
+  i) Imprima el valor de punto flotante 3.14159 con tres dígitos de precisión a la derecha del punto decimal. ¿Qué
+  valor se imprime?
+    printf("%.3f", 3.14159) /* imprime 3.142 */

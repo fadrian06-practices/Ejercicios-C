@@ -40,7 +40,7 @@ int main() {
     miPunto = suma;
     printf("Su punto es %d\n", miPunto);
     break; /* opcional */
-  }        /* fin de switch */
+  } /* fin de switch */
 
   /* mientras el juego no se complete */
   while (estatusJuego == CONTINUA) {
@@ -54,13 +54,13 @@ int main() {
       if (suma == 7) { /* pierde al tirar 7 */
         estatusJuego = PIERDE;
       } /* fin de if */
-    }   /* fin de else */
-  }     /* fin de while */
+    } /* fin de else */
+  } /* fin de while */
 
   /* despliega mensaje de triunfo o derrota */
   if (estatusJuego == GANA) { /* ¿Ganó el jugador? */
     printf("El jugador gana\n");
-  }      /* fin de if */
+  } /* fin de if */
   else { /* el jugador pierde */
     printf("El jugador pierde\n");
   } /* fin de else */

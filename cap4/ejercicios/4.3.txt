@@ -1,40 +1,40 @@
 Escriba una instrucción o un conjunto de instrucciones para realizar las siguientes tareas:
-	a) Sume los enteros impares entre 1 y 99, utilizando una instrucción for. Suponga que las variables enteras suma
-	y cuenta ya fueron declaradas.
-	
-		for (suma = 0, cuenta = 1; cuenta <= 99; cuenta += 2)
-			suma += cuenta;
-		
-	b) Imprima el valor 333.546372 en un ancho de campo de 15 caracteres con precisiones de 1, 2, 3, 4 y 5. Jus-
-	tifique hacia la izquierda la salida. ¿Cuáles son los valores que despliega?
-	
-		printf("%-15.1f", 333.546372); // 333.5
-		printf("%-15.2f", 333.546372); // 333.55
-		printf("%-15.3f", 333.546372); // 333.546
-		printf("%-15.4f", 333.546372); // 333.5464
-		printf("%-15.5f", 333.546372); // 333.54637
-	
-	c) Calcule el valor de 2.5 elevado a la tercera potencia, utilizando la función pow. Imprima el resultado con una
-	precisión de 2, en un ancho de campo de 10 posiciones. ¿Cuál es el valor que despliega?
-	
-		printf("%10.2f", pow(2.5, 3)); // 15.63
-	
-	d) Imprima los enteros del 1 al 20, utilizando un ciclo while y la variable contador x. suponga que la variable x
-	ya fue declarada, pero no inicializada. Imprima sólo cinco enteros por línea. [Pista: Utilice el cálculo x % 5.
-	Cuando el valor de éste sea 0, imprima un carácter de nueva línea, cuando sea diferente imprima un carácter
-	tabulador.]
-	
-		x = 1;
-		while (x <= 20) 
-			if (x % 5 == 0)
-				printf("%d\n", x++);
-			else
-				printf("%d\t", x++);
-	
-	e) Repita el ejercicio 4.3 (d), utilizando una instrucción for.
-		
-		for (x = 1; x <= 20; ++x)
-			if (x % 5 == 0)
-				printf("%d\n", x++);
-			else
-				printf("%d\t", x++);
+  a) Sume los enteros impares entre 1 y 99, utilizando una instrucción for. Suponga que las variables enteras suma
+  y cuenta ya fueron declaradas.
+  
+    for (suma = 0, cuenta = 1; cuenta <= 99; cuenta += 2)
+      suma += cuenta;
+    
+  b) Imprima el valor 333.546372 en un ancho de campo de 15 caracteres con precisiones de 1, 2, 3, 4 y 5. Jus-
+  tifique hacia la izquierda la salida. ¿Cuáles son los valores que despliega?
+  
+    printf("%-15.1f", 333.546372); // 333.5
+    printf("%-15.2f", 333.546372); // 333.55
+    printf("%-15.3f", 333.546372); // 333.546
+    printf("%-15.4f", 333.546372); // 333.5464
+    printf("%-15.5f", 333.546372); // 333.54637
+  
+  c) Calcule el valor de 2.5 elevado a la tercera potencia, utilizando la función pow. Imprima el resultado con una
+  precisión de 2, en un ancho de campo de 10 posiciones. ¿Cuál es el valor que despliega?
+  
+    printf("%10.2f", pow(2.5, 3)); // 15.63
+  
+  d) Imprima los enteros del 1 al 20, utilizando un ciclo while y la variable contador x. suponga que la variable x
+  ya fue declarada, pero no inicializada. Imprima sólo cinco enteros por línea. [Pista: Utilice el cálculo x % 5.
+  Cuando el valor de éste sea 0, imprima un carácter de nueva línea, cuando sea diferente imprima un carácter
+  tabulador.]
+  
+    x = 1;
+    while (x <= 20) 
+      if (x % 5 == 0)
+        printf("%d\n", x++);
+      else
+        printf("%d\t", x++);
+  
+  e) Repita el ejercicio 4.3 (d), utilizando una instrucción for.
+    
+    for (x = 1; x <= 20; ++x)
+      if (x % 5 == 0)
+        printf("%d\n", x++);
+      else
+        printf("%d\t", x++);

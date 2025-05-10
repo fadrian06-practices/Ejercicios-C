@@ -41,12 +41,12 @@ float calculaImporte(float horas) {
 
 int main() {
   // short numeroCliente; /* Cantidad de clientes que se estacionaron */
-  float numeroHoras1;  /* Horas que pasó estacionado */
-  float numeroHoras2;  /* Horas que pasó estacionado */
-  float numeroHoras3;  /* Horas que pasó estacionado */
-  float importe1;      /* Recibo de la percepción */
-  float importe2;      /* Recibo de la percepción */
-  float importe3;      /* Recibo de la percepción */
+  float numeroHoras1; /* Horas que pasó estacionado */
+  float numeroHoras2; /* Horas que pasó estacionado */
+  float numeroHoras3; /* Horas que pasó estacionado */
+  float importe1;     /* Recibo de la percepción */
+  float importe2;     /* Recibo de la percepción */
+  float importe3;     /* Recibo de la percepción */
   float totalHoras = 0;
   float totalImporte = 0;
 

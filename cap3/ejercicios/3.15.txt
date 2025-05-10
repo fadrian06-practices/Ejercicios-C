@@ -1,28 +1,28 @@
 Formule un algoritmo en pseudocódigo para cada una de las siguientes:
-	a) Obtenga dos números desde el teclado, calcule la suma de los números y
-	despliegue el resultado.
+  a) Obtenga dos números desde el teclado, calcule la suma de los números y
+  despliegue el resultado.
 
-		leer numero1
-		leer numero2
-		suma = numero1 + numero2
-		escribir suma
+    leer numero1
+    leer numero2
+    suma = numero1 + numero2
+    escribir suma
 
-	b) Obtenga dos números desde el teclado, y determine y despliegue cuál (si existe)
-	es el mayor de los dos.
+  b) Obtenga dos números desde el teclado, y determine y despliegue cuál (si existe)
+  es el mayor de los dos.
 
-		leer numero1
-		leer numero2
-		if numero1 > numero2
-			escribir "El mayor es " numero1
-		else
-			escribir "El mayor es " numero2
+    leer numero1
+    leer numero2
+    if numero1 > numero2
+      escribir "El mayor es " numero1
+    else
+      escribir "El mayor es " numero2
 
-	c) Obtenga una serie de números positivos desde el teclado, y determine
-	y despliegue la suma de los números.
-	Asuma que el usuario introduce un valor centinela -1 para indicar el
-	“fin de la entrada de datos”.
-	
-		while (numero != -1)
-			leer numero
-			suma += numero
-		escribir suma
+  c) Obtenga una serie de números positivos desde el teclado, y determine
+  y despliegue la suma de los números.
+  Asuma que el usuario introduce un valor centinela -1 para indicar el
+  “fin de la entrada de datos”.
+  
+    while (numero != -1)
+      leer numero
+      suma += numero
+    escribir suma

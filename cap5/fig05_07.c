@@ -18,7 +18,7 @@ int main() {
     if (i % 5 == 0) {
       printf("\n");
     } /* fin de if */
-  }   /* fin de for */
+  } /* fin de for */
 
   return 0;
 } /* fin de main */

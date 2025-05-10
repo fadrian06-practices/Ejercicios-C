@@ -103,8 +103,8 @@ int main() {
     // if (calificacion != 'A' && calificacion != 'a' && calificacion != 'B' &&
     //     calificacion != 'b' && calificacion != 'C' && calificacion != 'c' &&
     //     calificacion != 'D' && calificacion != 'd' && calificacion != 'F' &&
-    //     calificacion != 'f' && calificacion != '\n' && calificacion != '\t' &&
-    //     calificacion != ' ') {
+    //     calificacion != 'f' && calificacion != '\n' && calificacion != '\t'
+    //     && calificacion != ' ') {
     //   printf("Introdujo la letra incorrecta.\n");
     //   printf("Introduzca una nueva calificacion.\n");
     // }

@@ -1,49 +1,49 @@
 ¿Qué es lo que hace el siguiente programa?
  
-	/* ej04_08.c
-		¿Qué es lo que imprime el programa? */
-	#include <stdio.h>
-	
-	/* la función main comienza la ejecución del programa */
-	int main()
-	{
-		int x;
-		int y;
-		int i;
-		int j;
-		
-		/* indica al usuario la entrada de datos */
-		printf( “Introduzca dos enteros entre 1 y 20: “ );
-		scanf( “%d%d”, &x, &y ); /* lee los valores para x e y */
-		
-		for ( i = 1; i <= y; i++ ) { /* cuenta de 1 a y */
-		
-			for ( j = 1; j <= x; j++ ) { /* cuenta de 1 a x */
-				printf( “@” ); /* imprime @ */
-			} /* fin del for interno */
-		
-			printf( “\n” ); /* inicia una nueva línea */
-		} /* fin del for externo */
-		
-		return 0; /* indica la terminación exitosa del programa */
-	
-	} /* fin de la función main */
-	
-	Respuesta:
-	
-		- Solicita dos enteros entre 1 y 20 (por ejemplo 8 y 10)
-		- Usa el segundo número para iterar las filas (por ejemplo 10 filas)
-		- Usa el primer número para iterar las columnas e imprimir tantos "@" como señale el número (por ejemplo 8 "@"s)
-		- Después de imprimir los "@"s salta a la siguiente fila.
-		
-		Ejemplo:
-			@@@@@@@@
-			@@@@@@@@
-			@@@@@@@@
-			@@@@@@@@
-			@@@@@@@@
-			@@@@@@@@
-			@@@@@@@@
-			@@@@@@@@
-			@@@@@@@@
-			@@@@@@@@ (8 * 10 "@"s = 80 "@"s)
+  /* ej04_08.c
+    ¿Qué es lo que imprime el programa? */
+  #include <stdio.h>
+  
+  /* la función main comienza la ejecución del programa */
+  int main()
+  {
+    int x;
+    int y;
+    int i;
+    int j;
+    
+    /* indica al usuario la entrada de datos */
+    printf( “Introduzca dos enteros entre 1 y 20: “ );
+    scanf( “%d%d”, &x, &y ); /* lee los valores para x e y */
+    
+    for ( i = 1; i <= y; i++ ) { /* cuenta de 1 a y */
+    
+      for ( j = 1; j <= x; j++ ) { /* cuenta de 1 a x */
+        printf( “@” ); /* imprime @ */
+      } /* fin del for interno */
+    
+      printf( “\n” ); /* inicia una nueva línea */
+    } /* fin del for externo */
+    
+    return 0; /* indica la terminación exitosa del programa */
+  
+  } /* fin de la función main */
+  
+  Respuesta:
+  
+    - Solicita dos enteros entre 1 y 20 (por ejemplo 8 y 10)
+    - Usa el segundo número para iterar las filas (por ejemplo 10 filas)
+    - Usa el primer número para iterar las columnas e imprimir tantos "@" como señale el número (por ejemplo 8 "@"s)
+    - Después de imprimir los "@"s salta a la siguiente fila.
+    
+    Ejemplo:
+      @@@@@@@@
+      @@@@@@@@
+      @@@@@@@@
+      @@@@@@@@
+      @@@@@@@@
+      @@@@@@@@
+      @@@@@@@@
+      @@@@@@@@
+      @@@@@@@@
+      @@@@@@@@ (8 * 10 "@"s = 80 "@"s)

@@ -4,13 +4,13 @@ nar un ciclo while y remplazarlo con un do…while. ¿Qué instrucciones de cont
 zar, y cómo las utilizaría para garantizar que el resultado del programa sería idéntico al original?
 
 Respuesta:
-	El bucle do...while se ejecuta al menos una vez.
-	Podría extraerse el código equivalente a una iteración y luego usando el while
-	para las siguientes iteraciones. Si la condición del while es falsa, el while se
-	ignoraría y pasaría al código posterior.
-	
-	Para reemplazar un "while" por un do...while se debe usar una instrucción if
-	con la misma condición del "while" dentro del "do" de manera que el código del
-	"do" sólo se ejecute si aún se cumple la condición del "while"
-	si esta condición no se cumple al llegar al "while" del "do...while" se ignora y
-	continúa con el código posterior.
+  El bucle do...while se ejecuta al menos una vez.
+  Podría extraerse el código equivalente a una iteración y luego usando el while
+  para las siguientes iteraciones. Si la condición del while es falsa, el while se
+  ignoraría y pasaría al código posterior.
+  
+  Para reemplazar un "while" por un do...while se debe usar una instrucción if
+  con la misma condición del "while" dentro del "do" de manera que el código del
+  "do" sólo se ejecute si aún se cumple la condición del "while"
+  si esta condición no se cumple al llegar al "while" del "do...while" se ignora y
+  continúa con el código posterior.

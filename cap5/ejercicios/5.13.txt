@@ -2,24 +2,24 @@ Escriba instrucciones que asignen enteros de manera aleatoria a la variable n en
 
 a) 1 ≤ n ≤ 2
 
-	R. 1 + (rand() % 2)
+  R. 1 + (rand() % 2)
 
 b) 1 ≤ n ≤ 100
 
-	R. 1 + (rand() % 100)
+  R. 1 + (rand() % 100)
 
 c) 0 ≤ n ≤ 9
 
-	R. rand() % 10
+  R. rand() % 10
 
 d) 1000 ≤ n ≤ 1112
 
-	R. 1000 + (rand() % 113)
+  R. 1000 + (rand() % 113)
 
 e) -1 ≤ n ≤ 1
 
-	R. -1 + (rand() % 3)
+  R. -1 + (rand() % 3)
 
 f) -3 ≤ n ≤ 11
 
-	R. -3 + (rand() % 15)
+  R. -3 + (rand() % 15)

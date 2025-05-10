@@ -56,7 +56,7 @@ void mediana(int resp[]) {
          "El arreglo de respuestas desordenado es");
 
   imprimirArreglo(resp); /* muestra el arreglo desordenado */
-  ordenamBurbuja(resp); /* ordena el arreglo */
+  ordenamBurbuja(resp);  /* ordena el arreglo */
 
   printf("\n\nEl arreglo ordenado es ");
   imprimirArreglo(resp); /* muestra el arreglo ordenado */

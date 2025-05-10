@@ -13,5 +13,5 @@ int main() {
 
   printf("La suma es %d\n", suma); /* muestra la suma */
 
-  return 0;                        /* indica terminación exitosa */
+  return 0; /* indica terminación exitosa */
 } /* fin de la función main */
