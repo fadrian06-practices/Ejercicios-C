@@ -18,16 +18,18 @@
 #include <stdio.h>
 
 int main() {
-  int num1, num2, num3, suma, menor, mayor;
+  int num1, num2, num3, suma, producto, menor, mayor;
 
   printf("Escriba tres enteros diferentes: ");
   scanf("%d%d%d", &num1, &num2, &num3);
 
   suma = num1 + num2 + num3;
+  producto = num1 * num2 * num3;
   menor = mayor = num1;
 
   printf("La suma es %d\n", suma);
   printf("El promedio es %d\n", suma / 3);
+  printf("El producto es %d\n", producto);
 
   if (menor > num2) {
     menor = num2;
