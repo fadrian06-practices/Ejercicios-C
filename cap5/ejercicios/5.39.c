@@ -73,4 +73,4 @@ void moverDiscos(short discos, enum TorresDeHanoi origen,
   moverDiscos(discos - 1, temporal, destino, origen);
 }
 
-int main() { moverDiscos(3, PRIMERA, TERCERA, SEGUNDA); }
+int main() { moverDiscos(64, PRIMERA, TERCERA, SEGUNDA); }
