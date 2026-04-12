@@ -1,13 +1,15 @@
 /*
   (El recorrido del caballo.) Uno de los juegos de intriga más interesantes para
-  los entusiastas del ajedrez es el pro- blema del Recorrido del caballo. La
+  los entusiastas del ajedrez es el problema del Recorrido del caballo. La
   pregunta es: ¿puede una pieza de ajedrez llamada caballo moverse alrededor de
   un tablero y tocar cada una de las 64 posiciones, una y sólo una vez? Aquí
   estudiaremos este intrigante problema a fondo. El caballo tiene un movimiento
-  en forma de L(dos posiciones en una dirección y una posición en dirección
-  perpen- dicular). Por lo tanto, a partir de un cuadrado en el centro de un
+  en forma de L (dos posiciones en una dirección y una posición en dirección
+  perpendicular). Por lo tanto, a partir de un cuadrado en el centro de un
   tablero, el caballo puede hacer ocho movimientos diferentes (numerados de 0 a
-  7) como muestra la figura 6.25. a) Dibuje un tablero de ajedrez de 8 por 8 en
+  7) como muestra la figura 6.25.
+
+  a) Dibuje un tablero de ajedrez de 8 por 8 en
   una hoja de papel e intente el recorrido del caballo a mano. Coloque un 1 en
   la primera posición a la que se mueva, un 2 en la segunda posición, un 3 en la
   tercera, etcétera. Antes de comenzar el recorrido, estime qué tan lejos cree
