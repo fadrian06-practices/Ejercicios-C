@@ -29,6 +29,7 @@
 
 /* Verificación de las leyes de Morgan */
 #include <stdio.h>
+
 int main() {
   /*----------  a) !(x < 5) && !(y >= 7)  ----------*/
   short x, y, p, q;

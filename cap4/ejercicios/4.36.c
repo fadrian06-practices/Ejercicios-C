@@ -3,8 +3,8 @@
   utilice un ciclo for para producir un calendario condensado y claro. Cuidado
   con los cambios de año.
  */
-
 #include <stdio.h>
+
 int main() {
   int anio = 1;
   short mes, bisiesto, dia, dias;

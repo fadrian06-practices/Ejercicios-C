@@ -22,7 +22,6 @@
 
 /* Total de importes en un estacionamiento */
 #include <stdio.h>
-#include <string.h>
 
 float calculaImporte(float horas) {
   float importe = 0;
