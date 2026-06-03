@@ -15,8 +15,4 @@ int main() {
   if (num1 % num2 == 0) {
     printf("%d es multiplo de %d\n", num1, num2);
   }
-
-  if (num1 % num2 != 0) {
-    printf("%d no es multiplo de %d\n", num1, num2);
-  }
 }
