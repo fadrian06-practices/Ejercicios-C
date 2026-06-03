@@ -22,7 +22,6 @@
 /* Figura 6.15: fig06_15_1.c
   Este programa ordena los valores de un arreglo en orden ascendente */
 #include <stdio.h>
-#include <sys/timeb.h>
 #define TAMANIO 10
 
 void imprimirArreglo(const int b[], int tamanio) {

@@ -19,7 +19,6 @@
  */
 
 /* Juego de craps con apuestas */
-#include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h> /* contiene el prototipo de la función time */
